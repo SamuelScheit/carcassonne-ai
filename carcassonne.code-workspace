@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "game/logic"
+		},
+		{
+			"path": "game/view/backend"
+		},
+		{
+			"path": "game/view/frontend"
+		},
+		{
+			"path": "ai"
+		}
+	],
+	"settings": {}
+}

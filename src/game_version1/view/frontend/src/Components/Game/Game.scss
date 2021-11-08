@@ -1,0 +1,70 @@
+.spiel {
+	.split {
+		display: flex;
+		justify-content: space-between;
+		position: sticky;
+		top: 0;
+		z-index: 2;
+
+		.control {
+			.vorschau {
+				height: 5rem;
+			}
+
+			.figurSetzen {
+				display: flex;
+				align-items: stretch;
+				flex-direction: row;
+
+				.row {
+					display: flex;
+					justify-content: stretch;
+					flex-direction: column;
+					width: 100%;
+
+					.entry {
+						width: 1.9rem;
+						height: 1.9rem;
+						border: 1px solid black;
+					}
+				}
+			}
+
+			.figur {
+				margin-left: 0px;
+			}
+		}
+	}
+	.gitter {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+
+		.reihe {
+			display: flex;
+			flex-direction: row;
+			height: 5rem;
+		}
+	}
+}
+
+.karte {
+	width: 5rem;
+	min-width: 5rem;
+	position: relative;
+
+	img {
+		height: 100%;
+	}
+
+	.figur {
+		position: absolute;
+		background-color: #0000ff91;
+		border-radius: 50%;
+		margin-top: 1px;
+		margin-left: 2px;
+		z-index: 1;
+		width: 1.6rem;
+		height: 1.6rem;
+	}
+}
