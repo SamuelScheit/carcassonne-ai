@@ -1,4 +1,4 @@
-# Artificial intelligence for Carcassonne
+# [Paper](Paper.de.pdf) about artificial intelligence for Carcassonne 
 
 This is an artificial intelligence for the game [Carcassonne](https://wikicarpedia.com/index.php/Base_game) and was created as part of my school's seminar.
 
